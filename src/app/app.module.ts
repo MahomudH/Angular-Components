@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ResponsiveMenuComponent } from './responsive-menu/responsive-menu.component';
+import { HoverAnimationMenuComponent } from './hover-animation-menu/hover-animation-menu.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResponsiveMenuComponent,
+    HoverAnimationMenuComponent
   ],
   imports: [
     BrowserModule,
